@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React from 'react';
 
- const AboutUs8 = () => {
+const AboutUs8 = () => {
   return (
     <section className="about section-padding">
       <div className="container">
@@ -13,7 +13,8 @@ import React from "react";
             </div>
             <div className="box">
               <h2 className="fz-40 fw-600 ls1 mb-20">
-                25 years <br /> of Experience
+                Where Luxury <br />
+                Meets Lifestyle.
               </h2>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem

@@ -1,16 +1,16 @@
-import React from "react";
-import Script from "next/script";
-import Head from "next/head";
-import LoadingScreen from "../components/Loading-Screen/loading-screen";
-import "../styles/globals.css";
-import Cursor from "../components/Cursor";
-import ScrollToTop from "../components/scrollToTop";
+import React from 'react';
+import Script from 'next/script';
+import Head from 'next/head';
+import LoadingScreen from '../components/Loading-Screen/loading-screen';
+import '../styles/globals.css';
+import Cursor from '../components/Cursor';
+import ScrollToTop from '../components/scrollToTop';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Archo</title>
+        <title>Bisabo</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
