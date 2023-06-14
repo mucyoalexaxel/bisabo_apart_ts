@@ -25,7 +25,7 @@ const AboutUs8 = () => {
             </div>
           </div>
           <div className="col-lg-7 img">
-            <img src="/assets/images/night.jpeg" alt="" />
+            <img src="/assets/images/logo.jpeg" alt="" />
 
             <div className="feat mt-30">
               <div className="item">
