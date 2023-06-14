@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Swimming Pool",
+    "image": "/assets/images/day-pool.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Pool"]
+  },
+  {
+    "id": 2,
+    "title": "Kitchen",
+    "image": "/assets/images/night-kitchen.jpeg",
+    "filterClass": "interior",
+    "tags": ["Interior", "Kitchen"]
+  },
+  {
+    "id": 3,
+    "title": "Balcony",
+    "image": "/assets/images/day-balcony-1.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Balcony"]
+  },
+  {
+    "id": 4,
+    "title": "Yard",
+    "image": "/assets/images/day.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Yard"]
+  },
+  {
+    "id": 5,
+    "title": "Pool",
+    "image": "/assets/images/night-pool-1.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Pool"]
+  },
+  {
+    "id": 6,
+    "title": "Balcony",
+    "image": "/assets/images/day-balcony-2.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Balcony"]
+  },
+  {
+    "id": 7,
+    "title": "Kitchen",
+    "image": "/assets/images/night-kitchen-2.jpeg",
+    "filterClass": "interior",
+    "tags": ["Interior", "Kitchen"]
+  },
+  {
+    "id": 8,
+    "title": "Apartments",
+    "image": "/assets/images/night-balcony-2.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Apartments"]
+  },
+  {
+    "id": 9,
+    "title": "Balcony",
+    "image": "/assets/images/night-balcony-3.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Balcony"]
+  },
+  {
+    "id": 10,
+    "title": "Pool",
+    "image": "/assets/images/night-pool-8.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Pool"]
+  },
+
+  {
+    "id": 11,
+    "title": "Balcony",
+    "image": "/assets/images/night-balcony-3.jpeg",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Balcony"]
+  }
+]

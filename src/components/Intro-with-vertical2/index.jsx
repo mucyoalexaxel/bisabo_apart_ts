@@ -1,14 +1,14 @@
-import React from "react";
-import intro2Data from "../../data/Intro2.json";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Split from "../Split";
-import Link from "next/link";
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
+import React from 'react';
+import intro2Data from '../../data/Intro2.json';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import Split from '../Split';
+import Link from 'next/link';
+import SwiperCore, { Navigation, Pagination, Parallax } from 'swiper';
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import removeSlashFromPagination from '../../common/removeSlashFromPagination';
 
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
@@ -43,7 +43,7 @@ const IntroWithVertical2 = () => {
                 nextEl: navigationNextRef.current,
               }}
               pagination={{
-                type: "fraction",
+                type: 'fraction',
                 clickable: true,
                 el: paginationRef.current,
               }}
@@ -61,8 +61,8 @@ const IntroWithVertical2 = () => {
                 setTimeout(() => {
                   for (var i = 0; i < swiper.slides.length; i++) {
                     swiper.slides[i].childNodes[0].setAttribute(
-                      "data-swiper-parallax",
-                      0.75 * swiper.height
+                      'data-swiper-parallax',
+                      0.75 * swiper.height,
                     );
                   }
 
@@ -116,9 +116,9 @@ const IntroWithVertical2 = () => {
                                 {slide.content.second}
                               </p>
                             )}
-                            <Link href="/work2">
+                            <Link href="/gallery">
                               <a className="btn-curve btn-color mt-30">
-                                <span>Discover Work</span>
+                                <span>Explore</span>
                               </a>
                             </Link>
                           </div>

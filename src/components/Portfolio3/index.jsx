@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination } from "swiper";
-import portfolio3Data from '../../data/portfolio3.json'
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import Link from "next/link";
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation, Pagination } from 'swiper';
+import portfolio3Data from '../../data/portfolio3.json';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import Link from 'next/link';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -26,7 +26,7 @@ const Portfolio3 = () => {
     <section className="portfolio curs section-padding pt-0">
       <div className="container">
         <div className="section-head">
-          <h3>Works</h3>
+          <h3>Amenities</h3>
         </div>
         <div className="swiper-container work-curs">
           {!load ? (
@@ -47,7 +47,7 @@ const Portfolio3 = () => {
                 nextEl: navigationNextRef.current,
               }}
               pagination={{
-                type: "fraction",
+                type: 'fraction',
                 clickable: true,
                 el: paginationRef.current,
               }}
@@ -60,8 +60,8 @@ const Portfolio3 = () => {
                 setTimeout(() => {
                   for (var i = 0; i < swiper.slides.length; i++) {
                     swiper.slides[i].childNodes[0].setAttribute(
-                      "data-swiper-parallax",
-                      0.75 * swiper.width
+                      'data-swiper-parallax',
+                      0.75 * swiper.width,
                     );
                   }
 
@@ -89,7 +89,7 @@ const Portfolio3 = () => {
                     </div>
                     <div className="cont">
                       <h5>
-                        <Link href="/project-details">{slide.title}</Link>
+                        <Link href="/gallery">{slide.title}</Link>
                       </h5>
                       {slide.tags.map((tag) => (
                         <span key={tag.id}>{tag.name}</span>

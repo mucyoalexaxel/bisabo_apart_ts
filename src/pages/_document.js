@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -16,15 +16,19 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="React Nextjs Template Archo onepage themeforest"
+            content="Bisabo Apartment House Flat Booking Renting Real Estate"
           />
           <meta
             name="description"
-            content="Archo - Onepage Multi-Purpose React nextjs Template"
+            content="Bisabo Suites offers contemporary and luxurious apartments in a prime city location. With stylish decor and modern amenities, these suites provide a comfortable and sophisticated living experience. Enjoy the perfect balance of functionality and elegance in this urban sanctuary."
           />
           <meta name="author" content="" />
 
-          <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+          <link
+            rel="shortcut icon"
+            href="/assets/img/favicon.ico"
+            type="image/x-icon"
+          />
 
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
