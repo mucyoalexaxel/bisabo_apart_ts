@@ -24,7 +24,11 @@ class MyDocument extends Document {
           />
           <meta name="author" content="" />
 
-          <link rel="shortcut icon" href="/assets/img/favicon.ico" />
+          <link
+            rel="shortcut icon"
+            href="/assets/img/favicon.ico"
+            type="image/x-icon"
+          />
 
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"

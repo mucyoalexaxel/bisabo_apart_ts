@@ -15,6 +15,11 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
+        <link
+          rel="shortcut icon"
+          href="/assets/img/favicon.ico"
+          type="image/x-icon"
+        />
       </Head>
 
       <Cursor />
