@@ -69,50 +69,9 @@
     "filterClass": "exterior",
     "tags": ["Exterior", "Pool"]
   },
+
   {
     "id": 11,
-    "title": "Room",
-    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.visitrwanda.com%2Fwp-content%2Fuploads%2Ffly-images%2F1915%2FVisit-Rwanda-Kigali-Hotel-des-Milles-Collines-Classic-Room-Panorama-View-1650x927.jpg&f=1&nofb=1&ipt=af85abb4c55341e6e7006b27e3b789fddc7943bb37778604d546d4d679704837&ipo=images",
-    "filterClass": "interior rooms",
-    "tags": ["Interior", "Room"]
-  },
-  {
-    "id": 12,
-    "title": "Living Room",
-    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvibehouse.rw%2Fwp-content%2Fuploads%2F2020%2F09%2F20-12-04-apartement-for-rent-kibagabaga-kigali-rwanda-3-of-23-1170x750.jpg&f=1&nofb=1&ipt=a4260de5506a92064c4dfb1f75b31af98e55ed6c77b56a0edd80043473168b70&ipo=images",
-    "filterClass": "interior",
-    "tags": ["Interior", "Living Room"]
-  },
-  {
-    "id": 13,
-    "title": "Bed Room",
-    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.uniquetravel.cz%2Fwp-content%2Fuploads%2F2019%2F09%2FSUITE-BEDROOM_The_Retreat_Kigali_Rwanda_Low_Res.jpg&f=1&nofb=1&ipt=d6fb264409c4767515e704db3ca3c608c7bcad1798ac332f9fe2a05c6548a69f&ipo=images",
-    "filterClass": "interior rooms",
-    "tags": ["Interior", "Bed Room"]
-  },
-  {
-    "id": 14,
-    "title": "Living Room",
-    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ft-ec.bstatic.com%2Fimages%2Fhotel%2Fmax1024x768%2F151%2F151387323.jpg&f=1&nofb=1&ipt=10f8eae6d04b51e4e5f8ca6316c2bf6bb5692f8b262e9c188dc5bf04e039616a&ipo=images",
-    "filterClass": "interior",
-    "tags": ["Interior", "Living Room"]
-  },
-  {
-    "id": 15,
-    "title": "Bed Room",
-    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F24%2F43%2F50%2F2443507d8233e418e9470f259c4aa9c0.jpg&f=1&nofb=1&ipt=5be54f39386c7f883cdc3e24dbe455ea7c2166ee215ef61ef649a0c5d2194b5f&ipo=images",
-    "filterClass": "interior rooms",
-    "tags": ["Interior", "Bed Room"]
-  },
-  {
-    "id": 16,
-    "title": "Bed Room",
-    "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F31%2F61%2F37%2F316137722f25508cbf95ee83af0cb91f.jpg&f=1&nofb=1&ipt=7df43328f72d7bbb750575f0b1c3aa51bf9059205b39c289fc8b06b0e531f502&ipo=images",
-    "filterClass": "interior rooms",
-    "tags": ["Interior", "Bed Room"]
-  },
-  {
-    "id": 17,
     "title": "Balcony",
     "image": "/assets/images/night-balcony-3.jpeg",
     "filterClass": "exterior",
