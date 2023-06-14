@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
-import initIsotope from "../../common/initIsotope";
+import React from 'react';
+import Link from 'next/link';
+import initIsotope from '../../common/initIsotope';
+import gallery from '../../data/gallery.json';
 
 const WorkFourColumn = () => {
   React.useEffect(() => {
@@ -19,137 +20,31 @@ const WorkFourColumn = () => {
                 All
               </span>
               <span data-filter=".interior">Interior</span>
-              <span data-filter=".theaters">Theaters</span>
-              <span data-filter=".residential">Residential</span>
+              <span data-filter=".exterior">Exterior</span>
+              <span data-filter=".rooms">Rooms</span>
             </div>
           </div>
           <div className="row gallery">
-            <div className="col-lg-3 col-md-6 items theaters">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/01.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items residential interior">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/02.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
+            {gallery.map((single, i) => (
+              <div
+                key={i}
+                className={`col-lg-3 col-md-6 items ${single.filterClass}`}
+              >
+                <div className="item">
+                  <div className="img">
+                    <img src={single.image} alt={single.title} />
+                  </div>
+                  <div className="cont">
+                    <h5>
+                      <Link href="#">{single.title}</Link>
+                    </h5>
+                    {single.tags.map((tag, i) => (
+                      <span key={i}>{tag}</span>
+                    ))}
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items interior">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/03.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items residential">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/04.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items theaters">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/05.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items residential">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/06.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items residential interior">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/07.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items interior">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/08.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6 items theaters">
-              <div className="item">
-                <div className="img">
-                  <img src="/assets/img/works/col/09.jpg" alt="" />
-                </div>
-                <div className="cont">
-                  <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
-                  </h5>
-                  <span>Architecture</span>
-                  <span>Modern</span>
-                </div>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
