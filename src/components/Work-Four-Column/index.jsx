@@ -3,6 +3,7 @@ import React from 'react';
 import Link from 'next/link';
 import initIsotope from '../../common/initIsotope';
 import gallery from '../../data/gallery.json';
+import Image from 'next/image';
 
 const WorkFourColumn = () => {
   React.useEffect(() => {
@@ -32,7 +33,7 @@ const WorkFourColumn = () => {
               >
                 <div className="item">
                   <div className="img">
-                    <img src={single.image} alt={single.title} />
+                    <Image width={500} height={500} src={single.image} alt={single.title} />
                   </div>
                   <div className="cont">
                     <h5>

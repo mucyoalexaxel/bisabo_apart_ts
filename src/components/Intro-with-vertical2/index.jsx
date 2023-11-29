@@ -98,16 +98,13 @@ const IntroWithVertical2 = () => {
                         <div className="col-lg-10">
                           <div className="caption">
                             <div className="custom">
-                              <h5 className="thin custom-font">
-                                {slide.title.first}
-                              </h5>
                               <Split>
-                                <h1
+                                <h3
                                   data-splitting
                                   className="words chars splitting"
                                 >
                                   <Link href="#">{slide.title.second}</Link>
-                                </h1>
+                                </h3>
                               </Split>
                             </div>
                             {slide?.content && (

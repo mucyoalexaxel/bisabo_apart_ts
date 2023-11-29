@@ -7,6 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 
 SwiperCore.use([Navigation, Pagination]);
 
@@ -85,7 +86,7 @@ const Portfolio3 = () => {
                 <SwiperSlide key={slide.id} className="swiper-slide">
                   <div className="item">
                     <div className="img">
-                      <img src={slide.image} alt="" />
+                      <Image layout='fill' src={slide.image} alt="" />
                     </div>
                     <div className="cont">
                       <h5>

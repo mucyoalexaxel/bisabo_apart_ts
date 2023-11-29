@@ -1,28 +1,28 @@
 [
   {
     "id": 1,
-    "title": { "first": "Architectural", "second": "Excellence" },
+    "title": { "first": "", "second": "Luxurious Living Spaces" },
     "content": {
-      "first": "Sleek, luxurious and visually appealing",
-      "second": "to those seeking a sophisticated lifestyle."
+      "first": "",
+      "second": "Step into a world of elegance and comfort as you enter Bisabo Suites. Our thoughtfully designed rooms boast fresh and inviting aesthetics, creating an atmosphere that feels like home. Immerse yourself in the beauty of our impeccably furnished living spaces, where every detail reflects our commitment to providing a memorable stay."
     },
     "image": "/assets/images/day-balcony-1.jpeg"
   },
   {
     "id": 2,
-    "title": { "first": "Innovative", "second": "Interior Design" },
+    "title": { "first": "Innovative", "second": "Prime Self-Catering Accommodations" },
     "content": {
-      "first": "Sleek and contemporary with high-end finishes, such as",
-      "second": "premium flooring, stylish fixtures, and top-quality materials"
+      "first": "",
+      "second": "Conveniently located at Kimihurura, Kigali, Bisabo Suites offers a diverse selection of self-catering accommodations. Choose from studios, one-bedroom, and two-bedroom apartments, each fully equipped with modern amenities. Our commitment to detail and quality ensures a delightful and comfortable stay for every guest."
     },
     "image": "/assets/images/night-kitchen.jpeg"
   },
   {
     "id": 3,
-    "title": { "first": "serene", "second": "Amenities" },
+    "title": { "first": "", "second": "Your Safety, Our Priority" },
     "content": {
-      "first": "A fully equipped fitness center and a refreshing swimming pool for recreation,",
-      "second": "relaxation, and socializing without leaving the comfort of their own living space."
+      "first": "",
+      "second": "At Bisabo Suites, your security and safety are our top priorities. With Smart TVs, and monitored security cameras, we go the extra mile to ensure you feel secure throughout your stay. Relax and unwind, knowing that our commitment to your well-being is reflected in every aspect of our accommodations."
     },
     "image": "/assets/images/day-pool.jpeg"
   }
