@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import introData from "../../data/Intro-with-horizontal.json";
+import intro2Data from "../../data/Intro2.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../Split";
 import Link from "next/link";
@@ -75,7 +75,7 @@ const Intro4 = () => {
             className="swiper-wrapper"
             slidesPerView={1}
           >
-            {introData.map((slide) => (
+            {intro2Data.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/assets/images/day-pool.jpeg",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9561%20(1).jpg?t=2023-11-28T14%3A21%3A37.247Z",
     "title": "Swimming Pool",
     "tags": [
       {
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "image": "/assets/images/night-pool-4.jpeg",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9561%20(5)%20(1).jpg?t=2023-11-28T14%3A23%3A04.684Z",
     "title": "Communal Space",
     "tags": [
       {
@@ -32,6 +32,36 @@
   {
     "id": 3,
     "image": "/assets/images/day-balcony-1.jpeg",
+    "title": "Balcony",
+    "tags": [
+      {
+        "id": 1,
+        "name": "Exterior"
+      },
+      {
+        "id": 2,
+        "name": "Nature"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9573.jpg?t=2023-11-28T14%3A39%3A25.522Z",
+    "title": "Balcony",
+    "tags": [
+      {
+        "id": 1,
+        "name": "Exterior"
+      },
+      {
+        "id": 2,
+        "name": "Nature"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9643-HDR.JPG?t=2023-11-28T14%3A48%3A39.123Z",
     "title": "Balcony",
     "tags": [
       {

@@ -3,7 +3,8 @@ import AboutUs8 from '../components/About-Us8';
 import MainLayout from '../layouts/main';
 import Portfolio2 from '../components/Portfolio2';
 import Portfolio3 from '../components/Portfolio3';
-import IntroWithVertical2 from '../components/Intro-with-vertical2';
+import IntroWithVertical from '../components/Intro-with-vertical';
+import Services2 from '../components/Services2'
 
 const Home7 = () => {
   React.useEffect(() => {
@@ -11,7 +12,7 @@ const Home7 = () => {
   });
   return (
     <MainLayout>
-      <IntroWithVertical2 />
+      <IntroWithVertical />
       <AboutUs8 />
       <Portfolio2 />
       <Portfolio3 />

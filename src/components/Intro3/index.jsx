@@ -1,5 +1,5 @@
 import React from "react";
-import intro3Data from "../../data/intro3.json";
+import intro2Data from "../../data/Intro2.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../Split";
 import Link from "next/link";
@@ -75,7 +75,7 @@ const Intro3 = () => {
             className="swiper-wrapper"
             slidesPerView={1}
           >
-            {intro3Data.map((slide) => (
+            {intro2Data.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="bg-img valign"
@@ -99,9 +99,9 @@ const Intro3 = () => {
                               </Link>
                             </h1>
                           </Split>
-                          {slide?.content && (
+                          {/* {slide?.content && (
                             <p className="mt-10">{slide.content}</p>
-                          )}
+                          )} */}
                           <Link href="/work3">
                             <a className="btn-curve btn-color mt-20">
                               <span>Discover Work</span>

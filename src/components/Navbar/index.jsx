@@ -67,12 +67,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
                 <Link href="/">
-                  <a className="nav-link">Home</a>
+                  <a className="nav-link">BisaboHome</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/gallery">
-                  <a className="nav-link">Gallery</a>
+                  <a className="nav-link">BisaboGallery</a>
                 </Link>
               </li>
               <li className="nav-item">

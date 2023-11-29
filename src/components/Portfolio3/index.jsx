@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation, Pagination } from 'swiper';
+import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper';
 import portfolio3Data from '../../data/portfolio3.json';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -27,7 +27,7 @@ const Portfolio3 = () => {
     <section className="portfolio curs section-padding pt-0">
       <div className="container">
         <div className="section-head">
-          <h3>Amenities</h3>
+          <h3>Images</h3>
         </div>
         <div className="swiper-container work-curs">
           {!load ? (
