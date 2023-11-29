@@ -22,28 +22,7 @@ const
               </div>
             </div>
             <div className="col-lg-7 img">
-              <Image layout='fill' src="/assets/images/BisabosuitesLogo.png" alt="" />
-
-              <div className="feat mt-30">
-                <div className="item">
-                  <div>
-                    <h5>01</h5>
-                    <h6>Excellence</h6>
-                  </div>
-                </div>
-                <div className="item">
-                  <div>
-                    <h5>02</h5>
-                    <h6>Serene</h6>
-                  </div>
-                </div>
-                <div className="item">
-                  <div>
-                    <h5>03</h5>
-                    <h6>Innovative</h6>
-                  </div>
-                </div>
-              </div>
+              <Image width={800} height={600} src="/assets/images/BisabosuitesLogo.png" alt="" />
             </div>
           </div>
         </div>

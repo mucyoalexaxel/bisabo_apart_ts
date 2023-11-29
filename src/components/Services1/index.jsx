@@ -21,7 +21,7 @@ const Services1 = () => {
         <div
           className="row bord-box bg-img wow fadeInUp"
           data-wow-delay=".3s"
-          style={{ backgroundImage: `url(${services1Data.image}` }}
+          style={{ backgroundImage: `url(/assets/images/day-balcony-1.jpeg)` }}
         >
           {services1Data.services.map((item) => (
             <div className="col-lg-3 col-md-6 item-bx" key={item.id}>
