@@ -171,7 +171,7 @@ h6 {
 }
 
 p {
-  color: #9f9f9f;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.7;
@@ -181,7 +181,7 @@ p {
 a,
 span {
   display: inline-block;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 a:hover,
@@ -2395,10 +2395,8 @@ body {
 }
 
 .pages-header {
-  height: 65vh;
-  margin-top: 100px;
-  width: 90%;
-  margin-left: 5%;
+  height: 70vh;
+  width: 100%;
 }
 
 .pages-header .cont h1 {
@@ -2959,7 +2957,7 @@ body {
 
 .works.filter-img .filtering .filter span {
   margin-right: 20px;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .works.filter-img .filtering .filter span.active {
@@ -3056,7 +3054,7 @@ body {
 
 .works .item .cont span {
   margin-right: 15px;
-  font-size: 13px;
+  font-size: 15px;
   color: #c5a47e;
 }
 
@@ -3280,13 +3278,12 @@ body {
 }
 
 .work-header {
-  min-height: 65vh;
-  background-size: auto;
+  min-height: 80vh;
   background-repeat: repeat;
 }
 
 .work-header .cont {
-  margin-top: 100px;
+  margin-top: -150px;
 }
 
 .work-header .cont h2 {

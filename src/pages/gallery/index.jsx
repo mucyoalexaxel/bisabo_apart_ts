@@ -14,7 +14,7 @@ const Work3 = () => {
         center
         title={{
           first: 'Captivating Spaces:',
-          second: 'Explore Our Gallery',
+          second: 'Explore Bisabo Gallery',
         }}
         // title = "text",
         content="Discover the Artistry of Our Exquisite Apartments"

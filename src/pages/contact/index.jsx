@@ -16,7 +16,7 @@ const Contact = () => {
           { id: 1, name: 'home', url: '/' },
           { id: 2, name: 'contact us', url: '/contact' },
         ]}
-        image="/assets/images/night-pool-4.jpeg"
+        image="/assets/images/day-balcony-2.jpeg"
       />
       <section className="contact">
         <ContactInfo />
