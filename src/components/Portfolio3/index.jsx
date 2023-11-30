@@ -86,7 +86,7 @@ const Portfolio3 = () => {
                 <SwiperSlide key={slide.id} className="swiper-slide">
                   <div className="item">
                     <div className="img">
-                      <Image layout='fill' src={slide.image} alt="" />
+                      <img src={slide.image} alt="Bisabo Images" />
                     </div>
                     <div className="cont">
                       <h5>
