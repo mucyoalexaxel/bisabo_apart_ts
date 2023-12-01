@@ -2395,7 +2395,7 @@ body {
 }
 
 .pages-header {
-  height: 70vh;
+  height: 71vh;
   width: 100%;
 }
 
@@ -2406,11 +2406,7 @@ body {
 
 .pages-header .cont .path {
   color: #fff;
-  font-size: 17px;
-}
-
-.pages-header .cont .path .active {
-  color: #c5a47e;
+  font-size: 15px;
 }
 
 .pages-header .cont .path span {
