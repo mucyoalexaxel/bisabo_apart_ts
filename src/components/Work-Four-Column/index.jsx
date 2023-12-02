@@ -33,7 +33,7 @@ const WorkFourColumn = () => {
               >
                 <div className="item">
                   <div className="img">
-                    <Image width={500} height={500} src={single.image} alt={single.title} />
+                    <img src={single.image} alt={single.title} />
                   </div>
                   <div className="cont">
                     <h5>
