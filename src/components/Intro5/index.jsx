@@ -6,7 +6,8 @@ const Intro5 = () => {
   return (
     <header
       className="header bg-img valign"
-      style={{ backgroundImage: "url(/assets/img/slid/x1.jpg)" }}
+      // style={{ backgroundImage: "url(/assets/images/poolMorning.jpg)" }}
+      style={{ backgroundImage: "url(/assets/images/outdoor2.jpg)" }}
       data-overlay-dark="7"
     >
       <div className="container">
@@ -14,7 +15,7 @@ const Intro5 = () => {
           <div className="col-lg-10 offset-lg-1">
             <div className="caption hmone">
               <Split>
-                <h1 data-splitting className="words chars splitting">
+                <h1 data-splitting className="words chars splitting" style={{textTransform: "upperCase", fontSize: "2px", }}>
                   <Link href="#">Elegant &amp; Unique Design</Link>
                   <div className="bord"></div>
                 </h1>

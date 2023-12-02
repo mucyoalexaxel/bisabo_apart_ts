@@ -23,7 +23,7 @@ const VideoWithTestimonials = () => {
     <section className="block-sec">
       <div
         className="background bg-img pt-100 pb-0 parallaxie"
-        style={{ backgroundImage: `url(/assets/img/bg-vid.jpg)` }}
+        style={{ backgroundImage: `url(/assets/images/poolPortait.jpg)` }}
         data-overlay-dark="5"
       >
         <div className="container">
@@ -96,7 +96,7 @@ const VideoWithTestimonials = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  {/* <div className="item">
                     <p>
                       Nulla metus metus ullamcorper vel tincidunt sed euismod
                       nibh volutpat velit class aptent taciti sociosqu ad
@@ -143,7 +143,7 @@ const VideoWithTestimonials = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </Slider>
               </div>
             </div>

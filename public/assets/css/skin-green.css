@@ -5,7 +5,7 @@
 .block-sec .testim-box .slick-dots li,
 .navbar .dropdown-menu,
 .cursor-outer{
-  border-color: #bed86c !important;
+  border-color: #FFD93D !important;
 }
 
 .services-feat .item .icon,
@@ -17,7 +17,7 @@ footer .item li .sm-post .date,
 footer .item .copy-right p a,
 .loading-text,
 .progress-wrap::after{
-  color: #bed86c !important;
+  color: #FFD93D !important;
 }
 
 .header .caption .bord:after,
@@ -28,9 +28,9 @@ footer .item .copy-right p a,
 footer .item li .subscribe .subs,
 .pace .pace-progress,
 .cursor-inner{
-  background: #bed86c !important;
+  background: #FFD93D !important;
 }
 
 .progress-wrap svg.progress-circle path{
-  stroke: #bed86c;
+  stroke: #FFD93D;
 }
