@@ -39,8 +39,8 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 alt="logo"
                 ref={logoRef}
                 style={{
-                  width: '280px',
-                  height: '130px',
+                  width: '250px',
+                  height: '100px',
                   objectFit: 'fit',
                   background: 'transparent'
                 }}
