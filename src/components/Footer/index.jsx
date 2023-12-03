@@ -97,13 +97,13 @@ const Footer = ({ classText }) => {
             <div className="item">
               <div className="logo">
                 <img
-                  src="/assets/images/logo.jpeg"
-                  alt=""
+                  src='/assets/images/BisaboLogo2.png'
+                  alt="logo"
                   style={{
-                    width: '100px',
-                    height: '100px',
-                    borderRadius: '50%',
-                    objectFit: 'cover',
+                    width: '280px',
+                    height: '130px',
+                    objectFit: 'fit',
+                    background: 'transparent'
                   }}
                 />
               </div>
