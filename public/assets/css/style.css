@@ -1459,7 +1459,7 @@ body {
 /* ====================== [ End Heading ] ====================== */
 /* ====================== [  Start Button Style ] ====================== */
 .btn-curve {
-  background: transparent;
+  background: #fff;
   width: 170px;
   height: 50px;
   text-align: center;
@@ -1472,9 +1472,7 @@ body {
   cursor: pointer;
 }
 
-.btn-curve:hover {
-  background: #c5a47e;
-}
+.btn-curve:hover {}
 
 .btn-curve:focus {
   outline: none;
@@ -1513,7 +1511,7 @@ body {
 }
 
 .btn-curve span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
   position: absolute;
@@ -1536,7 +1534,7 @@ body {
 }
 
 .btn-curve.btn-lit:hover {
-  background: transparent;
+  background: #c5a47e;
 }
 
 .btn-curve.btn-lit:hover span {
@@ -1544,7 +1542,7 @@ body {
 }
 
 .btn-curve.btn-color {
-  background-color: #c5a47e;
+  background-color: transparent;
 }
 
 .btn-curve.btn-color:hover {
@@ -1568,11 +1566,10 @@ body {
   left: 0;
   top: 0;
   padding: 0;
-  margin: 0;
   width: 100%;
   background: transparent;
   z-index: 999;
-  min-height: 80px;
+  /* min-height: 80px; */
   font-family: 'Jost', sans-serif;
 }
 
@@ -2318,7 +2315,7 @@ body {
 
 .cta__slider-item .caption .thin {
   color: #fff;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -2337,7 +2334,7 @@ body {
 
 .cta__slider-item .caption p {
   color: #eee;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 20px;
   opacity: 0;
   max-width: 900px;
@@ -5970,6 +5967,18 @@ footer .item .copy-right p a {
   .blog-pg.single .comments-area .item .info h6 span {
     display: block;
     margin: 10px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .cta__slider-item .caption p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .cta__slider-item .caption .thin {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
