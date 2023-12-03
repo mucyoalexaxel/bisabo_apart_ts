@@ -57,10 +57,10 @@
   },
   {
     "id": 9,
-    "title": "Pool",
-    "image": "/assets/images/night-pool-8.jpeg",
-    "filterClass": "exterior",
-    "tags": ["Exterior", "Pool"]
+    "title": "Living Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9691.JPG",
+    "filterClass": "interior",
+    "tags": ["Interior", "Living Room"]
   },
 
   {
@@ -120,10 +120,66 @@
     "tags": ["Interior", "Kitchen"]
   },
   {
-    "id": 17,
-    "title": "Kitchen",
-    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9684.JPG?t=2023-12-01T09%3A16%3A33.320Z",
+    "id": 18,
+    "title": "Living Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9696.JPG?t=2023-12-03T16%3A12%3A14.346Z",
+    "filterClass": "interior",
+    "tags": ["Interior", "Living Room"]
+  },
+  {
+    "id": 19,
+    "title": "Wash Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9697.JPG?t=2023-12-03T16%3A20%3A47.987Z",
+    "filterClass": "interior",
+    "tags": ["Interior", "Wash Room"]
+  },
+  {
+    "id": 20,
+    "title": "Wash Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9698.JPG?t=2023-12-03T16%3A26%3A22.051Z",
+    "filterClass": "interior",
+    "tags": ["Interior", "Wash Room"]
+  },
+  {
+    "id": 21,
+    "title": "Bed Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9700.JPG?t=2023-12-03T16%3A26%3A34.341Z",
     "filterClass": "rooms",
-    "tags": ["Interior", "Kitchen"]
+    "tags": ["Rooms", "Bed Room"]
+  },
+  {
+    "id": 22,
+    "title": "Bed Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9703.JPG?t=2023-12-03T16%3A27%3A31.412Z",
+    "filterClass": "rooms",
+    "tags": ["Rooms", "Bed Room"]
+  },
+  {
+    "id": 23,
+    "title": "Pool",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9711.JPG?t=2023-12-03T16%3A34%3A19.826Z",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Pool"]
+  },
+  {
+    "id": 24,
+    "title": "Natural View",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9709.JPG?t=2023-12-03T16%3A34%3A11.498Z",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Natural View"]
+  },
+  {
+    "id": 25,
+    "title": "Guest Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9709.JPG?t=2023-12-03T16%3A34%3A11.498Z",
+    "filterClass": "interior",
+    "tags": ["Interior", "Guest Room"]
+  },
+  {
+    "id": 25,
+    "title": "Pool",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9712.JPG?t=2023-12-03T16%3A43%3A12.977Z",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "pool"]
   }
 ]

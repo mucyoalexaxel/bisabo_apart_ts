@@ -172,7 +172,7 @@ h6 {
 
 p {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.7;
   margin: 0;
@@ -181,7 +181,7 @@ p {
 a,
 span {
   display: inline-block;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 a:hover,
@@ -1511,6 +1511,7 @@ body {
 }
 
 .btn-curve span {
+  color: #fff;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -2950,7 +2951,7 @@ body {
 
 .works.filter-img .filtering .filter span {
   margin-right: 20px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .works.filter-img .filtering .filter span.active {
@@ -3047,7 +3048,7 @@ body {
 
 .works .item .cont span {
   margin-right: 15px;
-  font-size: 15px;
+  font-size: 20px;
   color: #c5a47e;
 }
 
@@ -3276,7 +3277,7 @@ body {
 }
 
 .work-header .cont {
-  margin-top: -150px;
+  margin-top: -135px;
 }
 
 .work-header .cont h2 {
@@ -5326,13 +5327,13 @@ body {
 }
 
 .contact .info .item .cont h6 {
-  font-size: 20px;
+  font-size: 23px;
   color: #c5a47e;
   margin-bottom: 10px;
 }
 
 .contact .info .item .cont p {
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .contact .map-box {
