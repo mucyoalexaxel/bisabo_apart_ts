@@ -2,75 +2,44 @@
   {
     "id": 1,
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9561%20(1).jpg?t=2023-11-28T14%3A21%3A37.247Z",
-    "title": "Swimming Pool",
+    "title": "Elegant Poolside Retreat",
     "tags": [
       {
         "id": 1,
-        "name": "Exterior"
-      },
-      {
-        "id": 2,
-        "name": "Recreation"
+        "name": "Serene Ambiance"
       }
     ]
   },
   {
     "id": 2,
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9561%20(5)%20(1).jpg?t=2023-11-28T14%3A23%3A04.684Z",
-    "title": "Communal Space",
+    "title": "Sunset Terrace Views",
     "tags": [
       {
         "id": 1,
-        "name": "Social"
-      },
-      {
-        "id": 2,
-        "name": "Modern"
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "image": "/assets/images/day-balcony-1.jpeg",
-    "title": "Balcony",
-    "tags": [
-      {
-        "id": 1,
-        "name": "Exterior"
-      },
-      {
-        "id": 2,
-        "name": "Nature"
+        "name": "Contemporary Haven"
       }
     ]
   },
   {
     "id": 3,
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9573.jpg?t=2023-11-28T14%3A39%3A25.522Z",
-    "title": "Balcony",
+    "title": "Natural Elegance",
     "tags": [
       {
         "id": 1,
-        "name": "Exterior"
-      },
-      {
-        "id": 2,
-        "name": "Nature"
+        "name": "Garden Serenity"
       }
     ]
   },
   {
     "id": 3,
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9643-HDR.JPG?t=2023-11-28T14%3A48%3A39.123Z",
-    "title": "Balcony",
+    "title": "Contemporary Luxurious Suites",
     "tags": [
       {
         "id": 1,
-        "name": "Exterior"
-      },
-      {
-        "id": 2,
-        "name": "Nature"
+        "name": "Sophisticated Comfort"
       }
     ]
   }
