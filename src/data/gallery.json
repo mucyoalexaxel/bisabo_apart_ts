@@ -57,7 +57,7 @@
   },
   {
     "id": 9,
-    "title": "Living Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9691.JPG",
     "filterClass": "interior",
     "tags": ["Interior", "Living Room"]
@@ -79,21 +79,21 @@
   },
   {
     "id": 12,
-    "title": "Bed Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9648.JPG?t=2023-12-01T09%3A10%3A19.507Z",
     "filterClass": "rooms",
     "tags": ["Interior", "Bed Room"]
   },
   {
     "id": 13,
-    "title": "Bed Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9653.JPG?t=2023-12-01T09%3A09%3A48.497Z",
     "filterClass": "rooms",
     "tags": ["Interior", "Bed Room"]
   },
   {
     "id": 14,
-    "title": "Bed Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9664.JPG?t=2023-12-01T09%3A09%3A25.355Z",
     "filterClass": "rooms",
     "tags": ["Interior", "Bed Room"]
@@ -107,7 +107,7 @@
   },
   {
     "id": 16,
-    "title": "Bed Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9664.JPG?t=2023-12-01T09%3A09%3A25.355Z",
     "filterClass": "rooms",
     "tags": ["Interior", "Bed Room"]
@@ -121,28 +121,28 @@
   },
   {
     "id": 18,
-    "title": "Living Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9696.JPG?t=2023-12-03T16%3A12%3A14.346Z",
     "filterClass": "interior",
     "tags": ["Interior", "Living Room"]
   },
   {
     "id": 19,
-    "title": "Wash Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9697.JPG?t=2023-12-03T16%3A20%3A47.987Z",
     "filterClass": "interior",
     "tags": ["Interior", "Wash Room"]
   },
   {
     "id": 20,
-    "title": "Wash Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9698.JPG?t=2023-12-03T16%3A26%3A22.051Z",
     "filterClass": "interior",
     "tags": ["Interior", "Wash Room"]
   },
   {
     "id": 21,
-    "title": "Bed Room",
+    "title": "Room",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9700.JPG?t=2023-12-03T16%3A26%3A34.341Z",
     "filterClass": "rooms",
     "tags": ["Rooms", "Bed Room"]
@@ -170,16 +170,30 @@
   },
   {
     "id": 25,
-    "title": "Guest Room",
-    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9709.JPG?t=2023-12-03T16%3A34%3A11.498Z",
+    "title": "Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9717.JPG?t=2023-12-03T16%3A57%3A33.264Z",
     "filterClass": "interior",
     "tags": ["Interior", "Guest Room"]
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "Pool",
     "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9712.JPG?t=2023-12-03T16%3A43%3A12.977Z",
     "filterClass": "exterior",
     "tags": ["Exterior", "pool"]
+  },
+  {
+    "id": 27,
+    "title": "Parking Area",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9719.JPG?t=2023-12-03T16%3A57%3A42.634Z",
+    "filterClass": "exterior",
+    "tags": ["Exterior", "Parking Area"]
+  },
+  {
+    "id": 28,
+    "title": "Room",
+    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9720.JPG?t=2023-12-04T15%3A43%3A20.714Z",
+    "filterClass": "rooms",
+    "tags": ["Exterior", "Bed Room"]
   }
 ]
