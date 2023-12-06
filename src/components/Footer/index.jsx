@@ -107,27 +107,8 @@ const Footer = ({ classText }) => {
                   }}
                 />
               </div>
-              <div className="social">
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                </Link>
+              <div className='social'>
+                <p>Feel free to visit Bisabo Web!</p>
               </div>
               <div className="copy-right">
                 <p>© {new Date().getFullYear()}, BISABO Suites.</p>

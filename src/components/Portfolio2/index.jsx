@@ -80,13 +80,13 @@ const Portfolio2 = () => {
         <div
           id="tab-3"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/images/day-pool.jpeg)` }}
+          style={{ backgroundImage: `url(/assets/images/updatedPool3.jpg)` }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-4"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/images/night-pool-6.jpeg)` }}
+          style={{ backgroundImage: `url(/assets/images/updatedBalcon.jpg)` }}
           data-overlay-dark="2"
         ></div>
       </div>
