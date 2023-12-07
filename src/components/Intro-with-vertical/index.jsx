@@ -36,7 +36,7 @@ const IntroWithVertical = () => {
         >
           {!load ? (
             <Swiper
-              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              autoplay={{ delay: 5000, disableOnInteraction: false, }}
               speed={800}
               parallax={true}
               navigation={{
@@ -54,6 +54,7 @@ const IntroWithVertical = () => {
               loop={true}
               grabCursor={true}
               watchSlidesProgress={true}
+              allowTouchMove={false}
               onBeforeInit={(swiper) => {
                 swiper.params.navigation.prevEl = navigationPrevRef.current;
                 swiper.params.navigation.nextEl = navigationNextRef.current;
