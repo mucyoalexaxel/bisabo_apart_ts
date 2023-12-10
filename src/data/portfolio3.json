@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9561%20(1).jpg?t=2023-11-28T14%3A21%3A37.247Z",
+    "image": "https://bisabo.blob.core.windows.net/bisabocontainer/4A3A9561 (1).jpg",
     "title": "Elegant Poolside Retreat",
     "tags": [
       {
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9561%20(5)%20(1).jpg?t=2023-11-28T14%3A23%3A04.684Z",
+    "image": "https://bisabo.blob.core.windows.net/bisabocontainer/4A3A9561 (5) (1).jpg",
     "title": "Sunset Terrace Views",
     "tags": [
       {
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9573.jpg?t=2023-11-28T14%3A39%3A25.522Z",
+    "image": "https://bisabo.blob.core.windows.net/bisabocontainer/4A3A9573.jpg",
     "title": "Natural Elegance",
     "tags": [
       {
@@ -33,8 +33,8 @@
     ]
   },
   {
-    "id": 3,
-    "image": "https://pjupfwqneycuvhuorsvd.supabase.co/storage/v1/object/public/bisabo%20bucket/4A3A9643-HDR.JPG?t=2023-11-28T14%3A48%3A39.123Z",
+    "id": 4,
+    "image": "https://bisabo.blob.core.windows.net/bisabocontainer/4A3A9643-HDR.JPG",
     "title": "Contemporary Luxurious Suites",
     "tags": [
       {
